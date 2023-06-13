@@ -1,0 +1,26 @@
+h1{
+    color:red;
+    text-align:center;
+}
+div{
+    width:150px;
+    height:150px;
+    background:blue;
+    position:relative;
+    animation-name:example;
+    animation-duration:3s;
+    animation-delay:2s;
+}
+@keyframes example{
+    0%{background-color:blue;left:0px;top:0px;}
+    10%{background-color:green;left:100px;top:0px;}
+    20%{background-color:yellow;left:200px;top:0px;}
+    30%{background-color:gray;left:300px;top:0px;}
+    40%{background-color:red;left:400px;top:0px;}
+    50%{background-color:orange;left:400px;top:100px;}
+    60%{background-color:pink;left:300px;top:100px;}
+    70%{background-color:light green;left:200px;top:100px;}
+    80%{background-color:brown;left:100px;top:100px;}
+    90%{background-color:black;left:0px;top:100px;}
+    100%{background-color:aqua;left:0px;top:0px;}
+}
